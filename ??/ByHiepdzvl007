@@ -4,12 +4,12 @@ local b = w:CreateFolder("Pet Collection")
 local e = w:CreateFolder("Mix")
 local u = w:CreateFolder("Credits")
 
-b:Toggle("Open All Eggs",function(bool)
+b:Toggle("Mở all tự make",function(bool)
     shared.toggle = bool
     Eggs = bool
 end)
 
-b:Button("Start",function()
+b:Button("HiepPhanTrumScript",function()
     if game:GetService("Workspace")["__MAP"].Interactive:FindFirstChild("Dominus Gate") then
         game:GetService("Workspace")["__MAP"].Interactive["Dominus Gate"]:Destroy()
     end
@@ -141,11 +141,11 @@ u:Label("Pastebin Views: "..getgenv().TotalPastebinViews,{
     BgColor = Color3.fromRGB(69,69,69)
 })
  
-u:Button("Discord Server",function()
+u:Button("Số người ghét tháiml",function()
     setclipboard(getgenv().Discord)
 end)
  
-u:Button("Pastebin Page",function()
+u:Button("Số lượt dùng",function()
     setclipboard(getgenv().Pastebin)
 end)
  
