@@ -1,8 +1,8 @@
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maxgat5/UiLib/main/lua')))()
-local w = library:CreateWindow("Pet Simulator X")
-local b = w:CreateFolder("Pet Collection")
-local e = w:CreateFolder("Mix")
-local u = w:CreateFolder("Credits")
+local w = library:CreateWindow("Nhớ bật auto sell trừ ex")
+local b = w:CreateFolder("tự collection")
+local e = w:CreateFolder("Nhớ bật cái này")
+local u = w:CreateFolder("Hướng dẫn sử dụng")
 
 b:Toggle("Mở all tự make",function(bool)
     shared.toggle = bool
@@ -46,14 +46,14 @@ b:Button("HiepPhanTrumScript",function()
                     SelectedImage = v.PetIcon.Image
                     local Cloned = v:Clone()
                     Cloned.Parent = ScG
-                    Cloned.PetIcon.ImageColor3 = Color3.new(255,255,255)
+                    Cloned.PetIcon.ImageColor3 = Color3.new(105,105,105)
                     Cloned.PetIcon.Locked.Visible = false
                     Cloned.Position = UDim2.new(0.053, 0,0.824, 0)
                     Cloned.AnchorPoint = Vector2.new(0.5, 0)
                     Cloned.Size = UDim2.new(0.076, 0,0.143, 0)
-                    Cloned.Name = "Maxgat5"
+                    Cloned.Name = "Cấm share free"
                 end
-                if ScG:FindFirstChild("Maxgat5") then
+                if ScG:FindFirstChild("Cấm share free") then
                     if table.find(Eggs,v.PetIcon.Image) then
                         print('Found!')
                         SelectedImage = v.PetIcon.Image
@@ -129,13 +129,13 @@ e:Toggle("AntiAfk",function(bool)
 end)
  
 --Credits
-u:Label("Discord Members: "..getgenv().TotalMembers,{
+u:Label("Follow Tiktok HiepPhan "..getgenv().TotalMembers,{
     TextSize = 25;
     TextColor = Color3.fromRGB(255,255,255);
     BgColor = Color3.fromRGB(69,69,69)
 })
  
-u:Label("Pastebin Views: "..getgenv().TotalPastebinViews,{
+u:Label("Số tiền donate tổng cộng: "..getgenv().TotalPastebinViews,{
     TextSize = 25;
     TextColor = Color3.fromRGB(255,255,255);
     BgColor = Color3.fromRGB(69,69,69)
@@ -145,7 +145,7 @@ u:Button("Số người ghét tháiml",function()
     setclipboard(getgenv().Discord)
 end)
  
-u:Button("Số lượt dùng",function()
+u:Button("a sell 1 tỷ nha e",function()
     setclipboard(getgenv().Pastebin)
 end)
  
