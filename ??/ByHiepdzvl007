@@ -46,7 +46,7 @@ b:Button("HiepPhanTrumScript",function()
                     SelectedImage = v.PetIcon.Image
                     local Cloned = v:Clone()
                     Cloned.Parent = ScG
-                    Cloned.PetIcon.ImageColor3 = Color3.new(105,105,105)
+                    Cloned.PetIcon.ImageColor5 = Color5.new(105,105,105)
                     Cloned.PetIcon.Locked.Visible = false
                     Cloned.Position = UDim2.new(0.053, 0,0.824, 0)
                     Cloned.AnchorPoint = Vector2.new(0.5, 0)
@@ -129,7 +129,7 @@ e:Toggle("AntiAfk",function(bool)
 end)
  
 --Credits
-u:Label("Follow Tiktok HiepPhan "..getgenv().TotalMembers,{
+u:Label("Số Follow Tiktok @HiepPhan01: "..getgenv().TotalMembers,{
     TextSize = 25;
     TextColor = Color3.fromRGB(255,255,255);
     BgColor = Color3.fromRGB(69,69,69)
