@@ -41,7 +41,7 @@ b:Button("HiepPhanTrumScript",function()
                 PetsCount = ""
                 EggPrice = ""
                 local ScG = Instance.new("ScreenGui",game:GetService("CoreGui"))
-                ScG.Name = "Maxgat5"
+                ScG.Name = "quocthaii2603"
                 if not ScG:FindFirstChild("Maxgat5") then
                     SelectedImage = v.PetIcon.Image
                     local Cloned = v:Clone()
