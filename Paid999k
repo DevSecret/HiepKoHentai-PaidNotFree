@@ -1,7 +1,7 @@
 --Credits
-getgenv().TotalMembers = game:service("HttpService"):JSONDecode(game:HttpGet("https://replit.com/@idolTe/quocthaii2603#main.coffee")).TotalMembers
-getgenv().TotalPastebinViews = game:service("HttpService"):JSONDecode(game:HttpGet("https://replit.com/@idolTe/quocthaii2603#main.coffee")).TotalPastebinViews
-getgenv().Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://replit.com/@idolTe/quocthaii2603#main.coffee")).Username
+getgenv().TotalMembers = game:service("HttpService"):JSONDecode(game:HttpGet("https://api.maxgat555.repl.co")).TotalMembers
+getgenv().TotalPastebinViews = game:service("HttpService"):JSONDecode(game:HttpGet("https://api.maxgat555.repl.co")).TotalPastebinViews
+getgenv().Username = game:service("HttpService"):JSONDecode(game:HttpGet("https://api.maxgat555.repl.co")).Username
 getgenv().Discord = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/DevSecret/Hiepdz-OpenEggs10s100eggs-AuCo/main/RawSearch")).Discord
 getgenv().Pastebin = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/DevSecret/Hiepdz-OpenEggs10s100eggs-AuCo/main/RawSearch")).Pastebin
 --Wait For No Bugs
