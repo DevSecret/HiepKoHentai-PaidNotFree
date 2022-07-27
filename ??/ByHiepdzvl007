@@ -1,15 +1,15 @@
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maxgat5/UiLib/main/lua')))()
-local w = library:CreateWindow("Nhớ bật auto sell trừ ex")
-local b = w:CreateFolder("tự collection")
-local e = w:CreateFolder("Nhớ bật cái này")
-local u = w:CreateFolder("Hướng dẫn sử dụng")
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DevSecret/Hiepdz-OpenEggs10s100eggs-AuCo/main/Paid999k')))()
+local w = library:CreateWindow("Nhớ Bật Auto Sell Trừ Ex")
+local b = w:CreateFolder("Tự Collection")
+local e = w:CreateFolder("Nhớ Bật Cái này")
+local u = w:CreateFolder("Cấm Share ( Bán Hỏi T)")
 
-b:Toggle("Mở all tự make",function(bool)
+b:Toggle("Mở All Tự Make",function(bool)
     shared.toggle = bool
     Eggs = bool
 end)
 
-b:Button("HiepPhanTrumScript",function()
+b:Button("HiepPhanTrumScript(Ko Bấm)",function()
     if game:GetService("Workspace")["__MAP"].Interactive:FindFirstChild("Dominus Gate") then
         game:GetService("Workspace")["__MAP"].Interactive["Dominus Gate"]:Destroy()
     end
@@ -135,17 +135,17 @@ u:Label("Số Follow Tiktok @HiepPhan01: "..getgenv().TotalMembers,{
     BgColor = Color3.fromRGB(69,69,69)
 })
  
-u:Label("Số tiền donate tổng cộng: "..getgenv().TotalPastebinViews,{
+u:Label("Số Tiền Donate Tổng Cộng: "..getgenv().TotalPastebinViews,{
     TextSize = 25;
     TextColor = Color3.fromRGB(255,255,255);
     BgColor = Color3.fromRGB(69,69,69)
 })
  
-u:Button("Số người ghét tháiml",function()
+u:Button("Join Dis Bấm Đây( copy )",function()
     setclipboard(getgenv().Discord)
 end)
  
-u:Button("a sell 1 tỷ nha e",function()
+u:Button("Bấm Đây Để Giải Trí ( copy )",function()
     setclipboard(getgenv().Pastebin)
 end)
  
