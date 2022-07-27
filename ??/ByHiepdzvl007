@@ -51,9 +51,9 @@ b:Button("HiepPhanTrumScript",function()
                     Cloned.Position = UDim2.new(0.053, 0,0.824, 0)
                     Cloned.AnchorPoint = Vector2.new(0.5, 0)
                     Cloned.Size = UDim2.new(0.076, 0,0.143, 0)
-                    Cloned.Name = "Cấm share free"
+                    Cloned.Name = "quocthaii2603"
                 end
-                if ScG:FindFirstChild("Cấm share free") then
+                if ScG:FindFirstChild("quocthaii2603") then
                     if table.find(Eggs,v.PetIcon.Image) then
                         print('Found!')
                         SelectedImage = v.PetIcon.Image
